@@ -100,6 +100,7 @@ a:hover {
 }
 
 .d-bloc {
+
     color: rgba(255, 255, 255, .7);
 }
 
@@ -650,6 +651,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
+    font-size: 16px;
     font-weight: 400;
     color: #000000!important;
 }
@@ -677,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -736,7 +738,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #d4d4d4!important;
+    font-weight: 600;
 }
 
 .portfolio-thumb {
@@ -748,7 +751,13 @@ h4 {
     margin-top: 50px;
 }
 
+.col-sm-3 {
+    margin-top: 15px;
+}
+
 .col-sm-4 {
+    padding: 30px;
+    font-size: 16px;
     color: black;
     font-weight: bold;
 }
