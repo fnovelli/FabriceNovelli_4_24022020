@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -748,6 +748,14 @@ h4 {
     margin-top: 50px;
 }
 
+.col-sm-4 {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -771,7 +779,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background: #da591d;
 }
 
 .tc-white {
@@ -779,7 +787,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #da591d;
     color: #FFFFFF!important;
 }
 
