@@ -651,7 +651,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #000000!important;
 }
@@ -757,13 +757,15 @@ h4 {
 
 .col-sm-4 {
     padding: 30px;
+    margin-top: 10px;
     font-size: 16px;
     color: black;
     font-weight: bold;
 }
 
-
-
+li {
+    margin-top: 20px;
+}
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
