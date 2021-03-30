@@ -712,6 +712,7 @@ p {
     font-size: 16px;
 }
 
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -733,7 +734,6 @@ p {
 
 .social {
     max-width: 400px;
-
     margin: 10px auto auto auto;
     align-items: center;
     display: flex;
@@ -894,6 +894,10 @@ li {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .social {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -903,17 +907,28 @@ li {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
+    .social {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+
+    .social {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .social {
+        flex-direction: column;
     }
 }
 
@@ -943,6 +958,10 @@ li {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+
+    .social {
+        flex-direction: column;
     }
 }
 
@@ -1083,6 +1102,18 @@ li {
         width: 180px;
         height: 320px;
     }
+
+    
+    .title1 {
+        font-size: 16px;
+        padding-left: 17px !important;
+        padding-right: 17px !important;
+    }
+
+.social {
+    flex-direction: column;
+}
+
 }
 
 @media (max-width: 400px) {
@@ -1090,10 +1121,30 @@ li {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .title1 {
+        font-size: 16px;
+        padding-left: 17px !important;
+        padding-right: 17px !important;
+    }
+
+    .social {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }    
+
+    .title1 {
+        font-size: 16px;
+        padding-left: 17px !important;
+        padding-right: 17px !important;
+    }
+
+    .social {
+        flex-direction: column;
     }
 }
