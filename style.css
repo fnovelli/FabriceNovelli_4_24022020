@@ -18,6 +18,14 @@ a:hover {
     cursor: pointer;
 }
 
+a:focus-within {
+    border-style: inset;
+}
+
+img:focus {
+    border-style: inset;
+}
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -352,6 +360,10 @@ a:hover {
     background: transparent;
 }
 
+.nav > li a:focus {
+    border-style: inset;
+}
+
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -473,6 +485,10 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(34, 33, 33, 0.3);
+}
+
+.btn-d:focus {
+    border-style: inset;
 }
 
 button {
@@ -717,7 +733,10 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+
+    margin: 10px auto auto auto;
+    align-items: center;
+    display: flex;
 }
 
 h2 {
@@ -767,6 +786,7 @@ h4 {
 
 .col-sm-3 {
     margin-top: 15px;
+    margin-left: 20px;
 }
 
 .col-sm-4 {
@@ -819,6 +839,10 @@ li {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+}
+
+.div:focus {
+    border-style: inset;
 }
 
 .ltc-white {
