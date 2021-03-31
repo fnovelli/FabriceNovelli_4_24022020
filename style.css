@@ -824,7 +824,7 @@ li {
 }
 
 .bgc-atomic-tangerine {
-    background: #ad4617;
+    background: #fd6f2d;
 }
 
 .tc-white {
@@ -832,7 +832,7 @@ li {
 }
 
 .btn-atomic-tangerine {
-    background: #ad4617;
+    background: #f06221;
     color: #FFFFFF!important;
 }
 
@@ -854,7 +854,7 @@ li {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #f88956!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -881,6 +881,7 @@ li {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -978,8 +979,8 @@ li {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1103,11 +1104,10 @@ li {
         height: 320px;
     }
 
-    
+ 
     .title1 {
-        font-size: 16px;
-        padding-left: 17px !important;
-        padding-right: 17px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 
 .social {
@@ -1123,9 +1123,8 @@ li {
     }
 
     .title1 {
-        font-size: 16px;
-        padding-left: 17px !important;
-        padding-right: 17px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 
     .social {
@@ -1139,9 +1138,8 @@ li {
     }    
 
     .title1 {
-        font-size: 16px;
-        padding-left: 17px !important;
-        padding-right: 17px !important;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
     }
 
     .social {
