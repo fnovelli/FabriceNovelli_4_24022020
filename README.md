@@ -11,3 +11,5 @@
 * Analyse de l'état actuel de SEO du site fourni
 * Amélioration du SEO du site.
 * Comparaison des résultats
+
+Site: https://fnovelli.github.io/project-4/
